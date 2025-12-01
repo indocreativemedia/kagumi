@@ -1,12 +1,12 @@
 # Kagumi ClassicPress Theme
 
-**Version:** 1.0.0
-**Requires PHP:** 7.4
-**Requires CP:** 1.7
-**Tested up to:** 2.5.0
-**Contributors:** IndoCreativeMedia
-**Tags:** blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-**License:** GNU General Public License v2 or later
+**Version:** 1.0.0  
+**Requires PHP:** 7.4  
+**Requires CP:** 1.7  
+**Tested up to:** 2.5.0  
+**Contributors:** IndoCreativeMedia  
+**Tags:** blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready  
+**License:** GNU General Public License v2 or later  
 **Text domain:** kagumi
 
 ## Description
