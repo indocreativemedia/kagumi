@@ -1,4 +1,5 @@
 # Kagumi ClassicPress Theme
+
 **Version:** 1.0.0
 **Requires PHP:** 7.4
 **Requires CP:** 1.7
@@ -9,12 +10,15 @@
 **Text domain:** kagumi
 
 ## Description
+
 Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap. Designed for speed and readability, it features an intelligent, responsive “smart column” layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, and content-heavy sites seeking a modern, minimal interface with strong usability and performance.
 
 ## Demo
+
 Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/kagumi/
 
 ## Features
+
 - Effective and efficient design
 - SEO-friendly structure
 - Customizable logo image and sidebar
@@ -23,10 +27,13 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/kagumi/
 - Instantly familiar and easy to use
 
 ## Changelog
+
 ### 1.0.0
+
 - Initial release
 
 ## Installation
+
 1. Download the theme ZIP file.
 2. Log in to your ClassicPress dashboard.
 3. Navigate to **Appearance > Themes**.
@@ -35,9 +42,11 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/kagumi/
 6. Activate the theme after installation.
 
 ## Customization
+
 - Use the **Customizer** (Appearance > Customize) to tweak appearance.
 
 ## License
+
 This theme is licensed under the **GNU General Public License v2.0 or later**.
 
 ```
@@ -58,6 +67,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
 ## Credits
+
 * Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
 * Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
 * BS5-Navwalker: https://github.com/imanishpushkar/bs5-navwalker/blob/master/LICENSE.md (MIT)
@@ -67,6 +77,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 * Image in theme screenshot: https://pxhere.com/en/photo/1333142 (CC0 Public Domain)
 
 ## Support
+
 Support us so we can continue improving and creating more valuable resources for everyone.
 
 https://ko-fi.com/indocreativemedia
