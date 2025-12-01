@@ -145,13 +145,17 @@ if ( ! function_exists( 'kagumi_post_thumbnail' ) ) {
 
 		} else {
 
-			$image_html = '<img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" src="' . esc_url( $fallback ) . '" alt="' . esc_attr( get_the_title() ) . '" width="560" height="420" />';
+			$image_html = sprintf(
+				'<img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" src="%s" alt="%s" width="560" height="420" />',
+				esc_url( $fallback ),
+				esc_attr( get_the_title() )
+			);
 		}
 
 		?>
 
 		<a class="post-thumbnail d-block text-center mb-4" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-			<?php echo $image_html; ?>
+			<?php echo wp_kses_post( $image_html ); ?>
 		</a>
 
 		<?php
@@ -181,7 +185,7 @@ if ( ! function_exists( 'kagumi_single_featured_image' ) ) {
 
     <div class="post-thumbnail pt-2 mb-4 text-center">
         <a href="<?php echo esc_url( $full_url ); ?>" target="_blank">
-            <?php echo $image_html; ?>
+            <?php echo wp_kses_post( $image_html ); ?>
         </a>
     </div>
 
