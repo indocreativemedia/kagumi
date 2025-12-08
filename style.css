@@ -368,3 +368,7 @@ pre {
 .accordion-button {
 	text-transform: uppercase;
 }
+
+iframe {
+	max-width: 100%;
+}
