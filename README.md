@@ -11,7 +11,7 @@
 
 ## Description
 
-Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap. Designed for speed and readability, it features an intelligent, responsive “smart column” layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, and content-heavy sites seeking a modern, minimal interface with strong usability and performance.
+Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap. Designed for speed and readability, it features an intelligent, responsive “smart column” layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, news, and content-heavy sites seeking a modern, minimal interface with strong usability and performance.
 
 ## Demo
 
@@ -76,7 +76,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 * Image in theme screenshot: https://pxhere.com/en/photo/760381 (CC0 Public Domain)
 * Image in theme screenshot: https://pxhere.com/en/photo/1333142 (CC0 Public Domain)
 
-## Support
+## Donate
 
 Support us so we can continue improving and creating more valuable resources for everyone.
 
