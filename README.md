@@ -54,7 +54,7 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/kagumi/
 This theme is licensed under the **GNU General Public License v2.0 or later**.
 
 ```
-Copyright (C) 2025 IndoCreativeMedia
+Copyright (C) 2025-2026 IndoCreativeMedia
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -73,12 +73,12 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ## Credits
 
 * Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
-* Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
+* Bootstrap: https://getbootstrap.com / https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
 * BS5-Navwalker: https://github.com/imanishpushkar/bs5-navwalker/blob/master/LICENSE.md (MIT)
 * Libre Caslon Text: https://github.com/impallari/Libre-Caslon-Text?tab=OFL-1.1-1-ov-file (OFL-1.1)
 * Libre Caslon Condensed: https://github.com/ertekinno/libre-caslon-condensed?tab=OFL-1.1-1-ov-file (OFL-1.1)
-* Image in theme screenshot: https://pxhere.com/en/photo/760381 (CC0 Public Domain)
-* Image in theme screenshot: https://pxhere.com/en/photo/1333142 (CC0 Public Domain)
+* Default thumbnail image: https://pxhere.com/en/photo/760381 (CC0 Public Domain)
+* Image in theme screenshot: https://pxhere.com/en/photo/889309 (CC0 Public Domain)
 
 ## Donate
 
