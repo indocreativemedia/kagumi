@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define( '_S_VERSION', '1.0.1' );
 }
 
 /**
@@ -47,7 +47,7 @@ function kagumi_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// Set global default featured image size
-	set_post_thumbnail_size( 560, 420, true );
+	set_post_thumbnail_size( 540, 360, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(

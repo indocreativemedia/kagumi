@@ -22,7 +22,7 @@
 
 			if ( 'post' === get_post_type() ) :
 				?>
-				<div class="entry-meta">
+				<div class="entry-meta small">
 					<?php
 					kagumi_posted_on();
 					kagumi_posted_by();
@@ -37,7 +37,7 @@
 
 		<div class="clearfix"></div>
 
-		<footer class="entry-footer mb-2">
+		<footer class="entry-footer small">
 			<?php kagumi_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
 

@@ -1,9 +1,8 @@
 # Kagumi ClassicPress Theme
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Requires PHP:** 7.4  
 **Requires CP:** 1.7  
-**Tested up to:** 2.5.0  
 **Contributors:** IndoCreativeMedia  
 **Tags:** blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready  
 **License:** GNU General Public License v2 or later  
@@ -11,7 +10,7 @@
 
 ## Description
 
-Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap. Designed for speed and readability, it features an intelligent, responsive “smart column” layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, news, and content-heavy sites seeking a modern, minimal interface with strong usability and performance.
+Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap and Underscores framework. Designed for speed and readability, it features an intelligent, responsive “smart column” layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, and news sites seeking a modern, minimal interface with strong usability and performance.
 
 ## Demo
 
@@ -27,6 +26,11 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/kagumi/
 - Instantly familiar and easy to use
 
 ## Changelog
+
+### 1.0.1
+
+- Visual adjustments
+- Remove unused file from Underscores (js/navigation.js)
 
 ### 1.0.0
 

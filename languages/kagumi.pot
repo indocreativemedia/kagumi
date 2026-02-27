@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kagumi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-01 06:46+0000\n"
+"POT-Creation-Date: 2026-02-27 19:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Add widgets here."
 msgstr ""
 
-#: inc/template-tags.php:292
+#: inc/template-tags.php:296
 msgctxt "aria label"
 msgid "Search for:"
 msgstr ""
@@ -43,7 +43,7 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/template-tags.php:223
+#: inc/template-tags.php:227
 msgid "Copyright"
 msgstr ""
 
@@ -86,15 +86,15 @@ msgstr ""
 #. Description of the theme
 msgid ""
 "Kagumi is a clean, simple, and lightweight ClassicPress theme built on the "
-"power of Bootstrap. Designed for speed and readability, it features an "
-"intelligent, responsive “smart column” layout that automatically adjusts the "
-"number of columns based on screen width, ensuring your content always looks "
-"perfectly balanced on any device. Ideal for blogs, magazines, and content-"
-"heavy sites seeking a modern, minimal interface with strong usability and "
-"performance."
+"power of Bootstrap and Underscores framework. Designed for speed and "
+"readability, it features an intelligent, responsive smart-column layout that "
+"automatically adjusts the number of columns based on screen width, ensuring "
+"your content always looks perfectly balanced on any device. Ideal for blogs, "
+"magazines, and news sites seeking a modern, minimal interface with strong "
+"usability and performance."
 msgstr ""
 
-#: inc/template-tags.php:290
+#: inc/template-tags.php:294
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
@@ -137,7 +137,7 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: inc/template-tags.php:292
+#: inc/template-tags.php:296
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr ""
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Posted in %1$s"
 msgstr ""
 
-#: inc/template-tags.php:239
+#: inc/template-tags.php:243
 msgid "Powered by"
 msgstr ""
 
@@ -201,12 +201,12 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: inc/template-tags.php:293
+#: inc/template-tags.php:297
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: inc/template-tags.php:293
+#: inc/template-tags.php:297
 msgctxt "submit button aria label"
 msgid "Submit search"
 msgstr ""

@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<aside id="secondary" class="widget-area col-md-4 col-xxl-3">
+<aside id="secondary" class="widget-area col-md-5 col-lg-4 col-xxl-3">
 	<div class="pt-4 mt-4 border-top d-md-none"></div>
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->

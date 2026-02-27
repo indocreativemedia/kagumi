@@ -255,7 +255,7 @@ if ( ! function_exists( 'kagumi_navigation_markup' ) ) {
 		$custom_template = '
 		<nav class="navigation %1$s" role="navigation">
 			<h2 class="screen-reader-text">%2$s</h2>
-			<div class="nav-links d-flex justify-content-between">%3$s</div>
+			<div class="nav-links d-flex justify-content-between gap-1 gap-md-2">%3$s</div>
 		</nav>';
 			
 		return $custom_template;

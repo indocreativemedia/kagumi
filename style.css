@@ -3,16 +3,16 @@ Theme Name: Kagumi
 Theme URI: https://www.indocreativemedia.com/free-classicpress-themes/
 Author: IndoCreativeMedia
 Author URI: https://www.indocreativemedia.com/free-classicpress-themes/
-Version: 1.0.0
+Version: 1.0.1
 Requires PHP: 7.4
 Requires CP: 1.7
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: kagumi
 Tags: blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-Description: Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap. Designed for speed and readability, it features an intelligent, responsive “smart column” layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, and content-heavy sites seeking a modern, minimal interface with strong usability and performance.
+Description: Kagumi is a clean, simple, and lightweight ClassicPress theme built on the power of Bootstrap and Underscores framework. Designed for speed and readability, it features an intelligent, responsive smart-column layout that automatically adjusts the number of columns based on screen width, ensuring your content always looks perfectly balanced on any device. Ideal for blogs, magazines, and news sites seeking a modern, minimal interface with strong usability and performance.
 
-Kagumi is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Kagumi is based on Underscores https://underscores.me/, (C) Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
@@ -43,13 +43,13 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	src: url('fonts/libre-caslon-text-v5-latin_latin-ext-700.woff2') format('woff2');
 }
 
-/* libre-caslon-condensed-latin-500-normal */
+/* libre-caslon-condensed-600-normal */
 @font-face {
 	font-family: 'Libre Caslon Condensed';
 	font-style: normal;
 	font-display: swap;
-	font-weight: 500;
-	src: url('fonts/LibreCaslonCondensed-Medium.woff2') format('woff2');
+	font-weight: 600;
+	src: url('fonts/LibreCaslonCondensed-SemiBold.woff2') format('woff2');
 }
 
 * {
@@ -77,15 +77,26 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .h5,
 .h6,
 h1,
-h2,
+h2:not(.accordion-header),
 h3,
 h4,
 h5,
 h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6,
 .nav-links,
 table.wp-calendar-table caption {
 	font-family: 'Libre Caslon Condensed', serif;
-	text-transform: uppercase;
+	font-weight: 600;
+	opacity: .875;
+}
+
+h2.accordion-header {
+	font-weight: 400;
 }
 
 body {
@@ -141,11 +152,17 @@ textarea:focus {
 	box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
 }
 
-input.submit {
+input.submit,
+input[type="submit"] {
 	border-color: #0d6efd;
 	background-color: #0d6efd;
 	color: #fff;
-	padding: .375rem .75rem;
+	padding-left: .75rem;
+	padding-right: .75rem;
+}
+
+input.submit {
+	padding: .375rem 1rem;
 }
 
 .form-control,
@@ -166,17 +183,14 @@ blockquote {
 }
 
 .nav-links {
-	font-weight: 500;
 	font-size: 1.25rem;
 	line-height: 1.375;
 }
 
-.nav-previous {
-	margin-right: .5rem;
-}
-
+.nav-previous,
 .nav-next {
-	margin-left: auto;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
 }
 
 .comment-navigation {
@@ -286,8 +300,7 @@ table.wp-calendar-table {
 }
 
 table.wp-calendar-table caption {
-	font-size: 1.5rem;
-	font-weight: 500;
+	font-size: calc(1.275rem + .3vw);
 	color: var(--bs-heading-color);
 	padding-top: 0;
 	line-height: 1.25;
@@ -320,7 +333,11 @@ label:not(.comment-form-cookies-consent label, .post-password-form label) {
 	display: block;
 }
 
-.entry-footer span {
+.comment-form-cookies-consent label {
+	display: initial;
+}
+
+.entry-footer span:not(:last-of-type) {
 	margin-right: .75rem;
 }
 
@@ -365,10 +382,14 @@ pre {
 	padding: 1rem;
 }
 
-.accordion-button {
-	text-transform: uppercase;
-}
-
 iframe {
 	max-width: 100%;
+}
+
+.reply {
+	margin-bottom: 1rem;
+}
+
+#cancel-comment-reply-link {
+	margin-left: .5rem;
 }
